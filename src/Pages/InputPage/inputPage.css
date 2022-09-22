@@ -1,0 +1,119 @@
+
+.input-page{
+    height:100vh;
+    padding:20px;
+    width:90%;
+    margin:0 auto;
+}
+
+
+.mid-inp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+     width:100%;
+    min-height:700px;
+     margin:20px auto;
+     background: #667db6;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.icon{
+    font-size:30px;
+    color: var(--logo-color);
+    margin:auto 25px;
+    transition:all 500ms linear
+
+}
+.icon:hover{
+    transform: translateY(10px);
+}
+.mid-inp-top{
+    display: flex;
+    flex-direction:column;
+    width:100%;
+    justify-content: center;
+    align-items: center;
+}
+.mid-inp-top>h1{
+    color:rgb(255, 255, 255);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
+    font-size: 46px;
+    width: 80%;
+    text-align: center;
+}
+.counter{
+    display: flex;
+    width:400px;
+    color: white;
+    justify-content: center;
+    font-size: 30px;
+    margin-top: 30px;
+
+}
+.output{
+    background-color:white;
+    color:black;
+    font-weight:700;
+    padding: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.chev{
+    margin:auto 55px;
+    font-size: 45px;
+    font-weight: bold;
+    transition:all 500ms ease;
+}
+.chev:hover{
+    transform:scale(1.2)
+}
+.newItem{
+    margin:35px auto;
+    border: 1px solid white;
+
+}
+.newItem>p{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    font-family:  monospace;
+}
+.newItem>input{
+    font-size: 20px;
+    height:30px;
+    width:300px;
+    margin:15px;
+    display: block;
+}
+.done-btn{
+    color: white;
+    background-color:rebeccapurple;
+    font-weight:700;
+    font-size: 20px;
+     width: 100px;
+     height: 35px;
+     display: block;
+    margin: 15px auto;
+    border:none;
+    transition: all 500ms linear;
+    font-family:'Courier New', Courier, monospace;
+}
+.done-btn:hover{
+    background-color: transparent;
+    border: 1px solid white;
+}
+@media (max-width:480px){
+    .mid-inp{
+        width:100%
+    }
+    .mid-inp-top>h1{
+        font-size: 35px;
+    }
+}

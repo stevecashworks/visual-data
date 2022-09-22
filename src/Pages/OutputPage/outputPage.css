@@ -1,0 +1,33 @@
+.output-page{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    margin: 0 auto;
+    min-height:100vh;
+    height: auto;
+    background: #667db6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.bar{
+    min-height:500px;
+    min-width: 600px;
+   border-left: 3px solid white;
+   border-bottom: 3px solid white;
+   position: relative;
+}
+.bar-name{
+    color:white;
+    writing-mode: vertical-rl;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+.inner-bar{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    border-collapse: collapse;
+}

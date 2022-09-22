@@ -1,0 +1,9 @@
+*{
+  margin:0;
+  padding:0;
+}
+:root{
+  /* --logo-color:rgb(247, 31, 103);*/
+  /* --logo-color:#333; */
+  --logo-color:rgb(164, 164, 230);
+}
